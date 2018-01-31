@@ -25,6 +25,15 @@ const users = [
   { name: 'aya dao', email: 'a.dao@mail.co', age: 18 },
   { name: 'siaka koné', email: 's.kone@mail.co', age: 22 },
   { name: 'sita touré', email: 's.toure@mail.co', age: 24 },
+  
 ]
 
 // Your code :
+
+function validCandidates(rowUsers) {
+  return rowUsers.filter(user => (user.age >= 18 && user.age <= 25))
+  
+}
+
+
+console.log(validCandidates(users));

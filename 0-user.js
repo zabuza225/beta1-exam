@@ -20,3 +20,5 @@
  */
 
 // Your code :
+
+var user = {name: 'TCHETCHE Moise Zouzoua Elie', email: 'zabuza225@gmail.com', age: 25 }
